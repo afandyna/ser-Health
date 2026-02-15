@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "/home/bassem/giii/node_bin/bin/npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ],
+      "env": {
+        "PATH": "/home/bassem/giii/node_bin/bin:/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  }
+}
