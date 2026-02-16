@@ -397,7 +397,7 @@ const AIRouter = () => {
       }
 
       setResult(data);
-      toast.success(lang === "ar" ? "✅ تم التحليل بواسطة Gemini AI" : "✅ Analysis completed via Gemini AI");
+      toast.success(lang === "ar" ? "✅ تم التخصيص بنجاح   " : "✅ Analysis completed via Gemini AI");
     } catch (err: any) {
       console.error("Analysis error, using fallback:", err);
       setResult(getLocalAnalysis(symptoms, lang));

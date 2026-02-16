@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# Ser-Health (صحة) 🏥
 
-## Project info
+Ser-Health is a modern, comprehensive healthcare guidance system designed to connect users with essential medical services in Egypt. The platform leverages AI to provide symptom analysis and helps users find doctors, hospitals, pharmacies, and labs quickly and efficiently.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌟 Features
 
-## How can I edit this code?
+- **AI Symptom Analyzer**: Detailed analysis of medical symptoms using Google Gemini AI to provide guidance on the next steps.
+- **Doctor Directory**: Search for doctors by specialization and location.
+- **Hospital Finder**: Locate the nearest medical facilities.
+- **Pharmacy & Lab Search**: Easily find pharmacies and medical laboratories.
+- **Multilingual Support**: Fully localized in Arabic and English.
+- **Admin Dashboard**: Comprehensive management system for healthcare providers.
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
 
-**Use Lovable**
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn/ui
+- **Backend & Database**: Supabase (PostgreSQL, Auth, Edge Functions)
+- **AI Engine**: Google Gemini Pro (via Supabase Edge Functions / Direct API)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📦 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18+)
+- npm or pnpm
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/afandyna/ser-Health.git
+   cd ser-health
+   ```
 
-Follow these steps:
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Configure Environment Variables**:
+   Create a `.env` file in the root directory:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
+   VITE_GEMINI_API_KEY=your_gemini_api_key
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📂 Documentation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Detailed setup and configuration guides can be found in the [`setup_guides/`](./setup_guides/) folder:
+- [Database Setup Guide](./setup_guides/DATABASE_SETUP_SUMMARY.md)
+- [Gemini AI Configuration](./setup_guides/GEMINI_SETUP.md)
+- [Admin Credentials](./setup_guides/ADMIN_CREDENTIALS.md)
 
-**Edit a file directly in GitHub**
+## 📝 License
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is part of the Ser-Health initiative.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+*Developed with ❤️ to improve healthcare accessibility.*

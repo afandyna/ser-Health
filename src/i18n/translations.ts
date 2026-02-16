@@ -260,7 +260,7 @@ export const translations = {
     phone: "الهاتف",
     submitDonation: "تقديم عرض تبرع",
     footerDisclaimer: "هذه المنصة توفر معلومات فقط. استشر دائماً متخصصاً طبياً في حالات الطوارئ.",
-    supportContact: "الدعم: support@ser-health.com",
+    supportContact: "0",
     privacyNotice: "بياناتك محمية ولن تتم مشاركتها بدون موافقتك.",
     home: "الرئيسية",
     back: "رجوع",
