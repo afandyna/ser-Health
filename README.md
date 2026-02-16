@@ -40,9 +40,9 @@ Ser-Health is a modern, comprehensive healthcare guidance system designed to con
 3. **Configure Environment Variables**:
    Create a `.env` file in the root directory:
    ```env
-VITE_SUPABASE_URL=https://vpsdajedntuzftvvjepe.supabase.co
-VITE_SUPABASE_PUBLISHABLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZwc2RhamVkbnR1emZ0dnZqZXBlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4NDg2MzgsImV4cCI6MjA4NjQyNDYzOH0.7ZI5jh46cGGkJ9exiuG9fNBLzKqDcNWEEqoN-YDFjhw
-VITE_GEMINI_API_KEY=AIzaSyBHqagG36BLK-UvusnimZOWlv03-gEVwfQ
+   VITE_SUPABASE_URL=https://vpsdajedntuzftvvjepe.supabase.co
+    VITE_SUPABASE_PUBLISHABLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZwc2RhamVkbnR1emZ0dnZqZXBlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA4NDg2MzgsImV4cCI6MjA4NjQyNDYzOH0.7ZI5jh46cGGkJ9exiuG9fNBLzKqDcNWEEqoN-YDFjhw
+   VITE_GEMINI_API_KEY=AIzaSyBHqagG36BLK-UvusnimZOWlv03-gEVwfQ
 
    ```
 
